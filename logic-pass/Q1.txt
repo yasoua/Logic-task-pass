@@ -1,0 +1,13 @@
+def main(string):
+    if isinstance(string, str):
+        var = string.replace(string," ")
+        return var
+    else:
+        print(string)
+
+
+
+if __name__ == '__main__':
+    title = 'bootcamp'
+    #print(title.replace(title,""))
+    print(main(title))

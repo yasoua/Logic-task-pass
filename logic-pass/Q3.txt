@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    chars = "abcdefghijklmnopqrstuvwxyz"
+    check_string = "Artifical intelegence "
+
+    for char in chars:
+        count = check_string.count(char)
+        if count > 1:
+            print (char, count)
+
